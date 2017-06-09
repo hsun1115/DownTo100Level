@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Down To 100 Level</title>
+<link rel="stylesheet" type="text/css" href="https://rawgit.com/hsun1115/hsun115.github.io/master/WebContent/css/index.css" />
+</head>
+<body>
+	<div class="main" id="js_main" tabindex="-1">
+		<!-- Game Area -->
+		<canvas id="canvas" width="320" height="480"></canvas>
+		<!-- draw the window -->
+		<div class="life">
+			<!-- HP Bar -->
+			<label id="js_life"></label>
+		</div>
+
+		<div class="level">
+			<!-- # of Level -->
+			Level<span id="js_level">0</span>
+		</div>
+
+		<div class="start_flush" id="js_start_flush">
+			<!-- Welcome Page -->
+		<a href="javascript:void(0)" id="js_start_btn" style="display: none;" class="start_btn" onclick="Main.start()"></a> 
+				<!-- This span display text Loading during load and become an Icon when load done -->
+			<span id="js_start_loading" style="position: absolute; left: 241px; top: 417px; color:white; font-size: 16px; font-weight: bolder;">Loading...</span>
+		</div>
+		<!-- When Game Over, display some data and Replay button -->
+		<div class="end_flush" id="js_end_flush">
+			<span class="icon"></span>
+			<p></p>
+			<a href="javascript:void(0)" class="replay_btn"
+				onclick="Main.replay()"></a>
+		</div>
+	</div>
+	<script type="text/javascript" src="https://rawgit.com/hsun1115/hsun115.github.io/master/WebContent/js/wfn.js"></script>
+	<script type="text/javascript" src="https://rawgit.com/hsun1115/hsun115.github.io/master/WebContent/js/person.js"></script>
+	<script type="text/javascript" src="https://rawgit.com/hsun1115/hsun115.github.io/master/WebContent/js/block.js"></script>
+	<script type="text/javascript" src="https://rawgit.com/hsun1115/hsun115.github.io/master/WebContent/js/index.js"></script>
+</body>
+</html>
