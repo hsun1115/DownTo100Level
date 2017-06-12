@@ -1,5 +1,5 @@
 # hsun115.github.io
-To make sure taht you can control the person, please click the game area every time you play the game.
+To make sure that you can control the person, please click the game area every time you play the game.
 This is a Comoputer Version project based on some online tutorials. You are able to open this website on your phone
 but not able to play with your phone!
 
