@@ -1,6 +1,3 @@
-/*
- * Person Definition
- */
 var Person = function(x,y,img,cxt,panelInfo) {
 	this.x = x;
 	this.y = y;
