@@ -1,6 +1,3 @@
-/*
- * define different kinds of blocks
- */
 var BlockBase = function(x, y, img, cxt, panelInfo) {// block base
 
 	this.x = x;
