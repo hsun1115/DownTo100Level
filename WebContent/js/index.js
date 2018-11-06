@@ -1,6 +1,3 @@
-/*
- * Game main logical portal, processing main logical issues
- */
 var Main = {
 	gameInfo : {w : 0,h : 0},// game display size
 	cxt : null, // context
