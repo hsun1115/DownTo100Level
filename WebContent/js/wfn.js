@@ -1,6 +1,3 @@
-/*
- * public method, basic file
- */
 var WF = function() {
 	function getId(id) { // get a certain element from the page
 		return typeof id == "string" ? document.getElementById(id) : id;
@@ -359,20 +356,20 @@ WF.reg("time", function() {
 					item = self.list[i];// timeQuene request item during game
 										// processing
 
-					item.cb.apply(item.context, item.param);// 1¡¢Main.draw
-														// 2¡¢Main.update
+					item.cb.apply(item.context, item.param);// 1Â¡Â¢Main.draw
+														// 2Â¡Â¢Main.update
 				}
 				/**
 				 * requestAnimationFrame API manage and detect the frame use
-				 * requestAnimationFrame£¬send a callback parameter£¬ so for the
-				 * next frame, will use callback¡£
+				 * requestAnimationFrameÂ£Â¬send a callback parameterÂ£Â¬ so for the
+				 * next frame, will use callbackÂ¡Â£
 				 */
 				if(self.isStart)requestAnimationFrame(arguments.callee);
 					
 				/**
-				 * arguments.callee call itself 1¡¢Arguments
-				 * [function.]arguments[n] function £ºthe current processing
-				 * function object name ¶þ¡¢callee [function.]arguments.callee
+				 * arguments.callee call itself 1Â¡Â¢Arguments
+				 * [function.]arguments[n] function Â£Âºthe current processing
+				 * function object name Â¶Ã¾Â¡Â¢callee [function.]arguments.callee
 				 * optional
 				 */
 
