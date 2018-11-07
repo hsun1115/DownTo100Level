@@ -18,7 +18,7 @@ var Main = {
 		Main.initData();
 	},
 
-	initData : function() {// init data
+initData : function() {// init data
 		// WF.file.imgs Image operation
 		// getId() get page element
 		WF.file.imgs([ "https://cdn.jsdelivr.net/gh/hsun1115/DownTo100Level/WebContent/img/man.png", "https://cdn.jsdelivr.net/gh/hsun1115/DownTo100Level/WebContent/img/block.png", "https://cdn.jsdelivr.net/gh/hsun1115/DownTo100Level/WebContent/img/move.png",
