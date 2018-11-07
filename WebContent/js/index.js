@@ -21,8 +21,8 @@ var Main = {
 	initData : function() {// init data
 		// WF.file.imgs Image operation
 		// getId() get page element
-		WF.file.imgs([ "https://rawgit.com/hsun1115/hsun115.github.io/master/WebContent/img/man.png", "https://rawgit.com/hsun1115/hsun115.github.io/master/WebContent/img/block.png", "https://rawgit.com/hsun1115/hsun115.github.io/master/WebContent/img/move.png",
-				"https://rawgit.com/hsun1115/hsun115.github.io/master/WebContent/img/thorn.png", "https://rawgit.com/hsun1115/hsun115.github.io/master/WebContent/img/flip.png", "https://rawgit.com/hsun1115/hsun115.github.io/master/WebContent/img/thorn_bg.png" ],
+		WF.file.imgs([ "https://cdn.jsdelivr.net/gh/hsun1115/DownTo100Level/WebContent/img/man.png", "https://cdn.jsdelivr.net/gh/hsun1115/DownTo100Level/WebContent/img/block.png", "https://cdn.jsdelivr.net/gh/hsun1115/DownTo100Level/WebContent/img/move.png",
+				"https://cdn.jsdelivr.net/gh/hsun1115/DownTo100Level/WebContent/img/thorn.png", "https://cdn.jsdelivr.net/gh/hsun1115/DownTo100Level/WebContent/img/flip.png", "https://cdn.jsdelivr.net/gh/hsun1115/DownTo100Level/WebContent/img/thorn_bg.png" ],
 				function(imgs) {
 					Main.imgs = imgs;// save the image array onload from
 										// wfn.js
