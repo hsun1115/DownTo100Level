@@ -63,7 +63,7 @@
 	top: 0;
 	width: 320px;
 	height: 480px;
-	background: url(https://raw.githubusercontent.com/hsun1115/DownTo100Level/master/WebContent/img/game_bg.jpg) no-repeat;
+	background: url(https://cdn.jsdelivr.net/gh/hsun1115/DownTo100Level/WebContent/img/game_bg.jpg) no-repeat;
 	z-index: 10;
 	background-size: 320px 480px;
 }
@@ -109,13 +109,13 @@
 	float:left;
 	width:55px;
 	height:53px;
-	background:url(https://raw.githubusercontent.com/hsun1115/DownTo100Level/master/WebContent/img/baozi.png) 0 -54px no-repeat;
+	background:url(https://cdn.jsdelivr.net/gh/hsun1115/DownTo100Level/WebContent/img/baozi.png) 0 -54px no-repeat;
 	background-size:55px 106px;
 	margin: 12px 0 0 12px;
 	/*left up right down*/
 }
 .end_flush .icon.happy {
-	background:url(https://raw.githubusercontent.com/hsun1115/DownTo100Level/master/WebContent/img/baozi.png) no-repeat;
+	background:url(https://cdn.jsdelivr.net/gh/hsun1115/DownTo100Level/WebContent/img/baozi.png) no-repeat;
 	background-size:55px 107px;
 }
 .end_flush p {
@@ -159,7 +159,7 @@
 	0 center horizontal 0 vertical center
 	-4px -3px horizontal -4px vertical -3px	
 	*/
-	background:url(https://raw.githubusercontent.com/hsun1115/DownTo100Level/master/WebContent/img/icons_btn.png) no-repeat right 0;
+	background:url(https://cdn.jsdelivr.net/gh/hsun1115/DownTo100Level/WebContent/img/icons_btn.png) no-repeat right 0;
 	/*
 	background-size including 2 values，1 required，1 option。
 　　    the required one for the background width，the second one for its height，
